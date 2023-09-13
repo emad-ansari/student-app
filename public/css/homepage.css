@@ -1,0 +1,131 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#searchBtn{
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.input-and-search-btn {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+   
+}
+#search-filter-input {
+    margin-left: 150px;
+   
+}
+#search-filter-input input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.button-and-add-new-student-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.add-and-delete {
+    display: flex;
+    margin-right: 150px;
+    gap: 10px;
+}
+
+#add{
+    background-color: rgb(186, 255, 48);
+}
+#delete {
+    background-color:rgb(197, 72, 97);
+    color: white
+
+}
+.button-and-add-new-student-btn a {
+    padding: 5px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color : black;
+}
+
+.student-details-head{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-right: 150px; 
+    margin-bottom: 3px;
+}
+.student-details-head div{
+    border: 0.5px solid white;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+   
+    
+}
+.student-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    row-gap: 2px;
+}
+.student-data div {
+    text-align: center;
+    color : black;
+    font-size: 15px;
+    background-color:blanchedalmond;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+#delete-popup {
+    display: none;
+    width: 350px;
+    height: 200px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-left: 500px;
+    margin-top: 160px;
+    border-radius: 5px;
+    color : white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#roll-input {
+    width: 95%;
+    padding: 6px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#delete-popup button{
+    width: 150px;
+    padding: 6px;
+    margin-left: 30%;
+
+}
+#delete-popup i {
+    float : right;
+    font-size: 20px;;
+    margin-bottom: 5px;;
+}
+

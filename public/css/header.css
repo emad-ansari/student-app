@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+
+   
+}
+header ul {
+    display: flex;
+    gap: 40px;;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+header ul li{
+    color : white;
+    list-style: none;
+    font-size: 15px;
+
+}

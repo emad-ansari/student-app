@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "student-details-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

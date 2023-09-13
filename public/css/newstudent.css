@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#student-details-form {
+    margin-top: 100px;
+    width: 680px;
+    height: 300px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+#student-details-form label
+{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+    
+}
+.roll-and-name,
+.age-and-college{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+#student-roll,
+#student-name,
+#student-age,
+#student-college {
+    width: 320px;
+    padding: 5px;
+
+}
+#name label,
+#college{
+    margin-left: 5px;
+}
+
+#submit-button{
+    padding: 6px;
+    text-align: center;
+    width: 180px;
+    font-size: 20px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+   
+}
+.btndiv{
+    display: flex;;
+    justify-content: center;
+
+
+}
+

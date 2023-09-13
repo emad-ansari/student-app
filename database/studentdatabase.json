@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Emad",
+    "age": "21",
+    "roll": "2",
+    "college": "Galgotias University"
+  },
+  {
+    "name": "Deepak",
+    "age": "20",
+    "roll": "3",
+    "college": "Galgotias University"
+  },
+  {
+    "name": "Faizan Khan",
+    "age": "20",
+    "roll": "4",
+    "college": "GU"
+  }
+]

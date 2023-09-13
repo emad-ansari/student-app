@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Philosopher:ital@1&family=Roboto:wght@300&family=Varela&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = "container">
+        <header>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>login</li>
+            </ul>
+        </header>
+       
+
+        <div class = "button-and-add-new-student-btn">
+            <div class = "input-and-search-btn">
+                <div id = "search-filter-input">
+                    <input type="search" placeholder="Search....">
+                    
+                </div>
+                <div>
+                    <button id = "searchBtn">Find</button>
+                </div>
+
+            </div>
+            
+           <div class = "add-and-delete">
+                <div><a href="/Student" id ="add">Add New Student</a></div>
+                <div><a href="#" id = "delete">Delete Student</a></div>
+           </div>
+
+        </div>
+
+        <div class = "student-details-head">
+            <div class="">Roll No</div>
+            <div class="">Name</div>
+            <div class="">Age</div>
+            <div class="">College</div>
+        </div>
+        <div class = "student-data"></div>
+
+        <div id = "delete-popup">
+            <i class="fa-solid fa-xmark"  id = "cross-btn"style="color: #d81818;"></i>
+            <div>
+                <label for="roll-input">Enter roll no</label>
+                <input type="number"  id = "roll-input" placeholder="Roll no...">
+            </div>
+            <button id = "delete-btn">Delete</button>
+        </div>
+    </div>
+
+    
+
+
+    <script src= "/public/js/app.js"></script>
+</body>
+</html>
